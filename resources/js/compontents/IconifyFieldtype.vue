@@ -142,7 +142,7 @@ export default {
         },
         search() {
             this.loading = true
-            ky.get('https://api.iconify.design/search?limit=999&query=' + this.query)
+            ky.get('https://api.iconify.design/search?limit=999&query=' + this.query + '&prefix=bi')
                 .json()
                 .then(data => {
                    this.result = data
