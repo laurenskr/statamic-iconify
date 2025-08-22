@@ -23,7 +23,7 @@
 
                 <header class="flex items-center sticky top-0 inset-x-0 bg-white dark:bg-dark-550 shadow dark:shadow-dark px-8 py-2 z-1 h-13">
                     <h1 class="flex-1 flex items-center text-xl">
-                        Search and select an icon
+                        Zoek en kies een icoon
                     </h1>
                     <button type="button" class="btn-close" @click="searchModalIsOpen = false">×</button>
                 </header>
